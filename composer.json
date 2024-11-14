@@ -2,7 +2,7 @@
   "name": "rek771/reminder-tg-bot",
   "description": "Бот, который напоминает в телегу о важных событиях",
   "require": {
-    "php": ">=8.0",
+    "php": ">=8.2",
     "ext-curl": "*",
     "ext-json": "*",
     "ext-pcntl": "*",
