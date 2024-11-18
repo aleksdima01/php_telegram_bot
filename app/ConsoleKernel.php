@@ -22,7 +22,7 @@ class ConsoleKernel
         $this->app = $app;
     }
 
-    public function handle()
+    public function handle():void
     {
         $shortopts = 'c:';
 

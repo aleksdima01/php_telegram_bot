@@ -11,7 +11,6 @@ use App\Models\Event;
 class SaveEventCommand extends Command
 {
 
-    protected Application $app;
 
     public function __construct(Application $app)
 
