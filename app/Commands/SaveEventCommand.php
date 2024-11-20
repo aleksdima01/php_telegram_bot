@@ -93,7 +93,7 @@ class SaveEventCommand extends Command
 
     }
 
-    private function isNeedHelp(array $options): bool
+    public function isNeedHelp(array $options): bool
 
     {
 
