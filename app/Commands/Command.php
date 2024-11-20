@@ -29,7 +29,7 @@ abstract class Command
         pcntl_signal(SIGHUP, $callback);
         pcntl_signal(SIGINT, $callback);
     }
-    protected function getCurrentTime(): array
+    public function getCurrentTime(): array
     {
         return [
             date("i"),
