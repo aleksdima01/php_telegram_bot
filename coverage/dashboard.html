@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/reminder-bot/vscode/php_telegram_bot/app</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css?v=9.2.32" rel="stylesheet" type="text/css">
+  <link href="_css/nv.d3.min.css?v=9.2.32" rel="stylesheet" type="text/css">
+  <link href="_css/style.css?v=9.2.32" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">/home/reminder-bot/vscode/php_telegram_bot/app</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Application.php.html#5">App\Application</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/Command.php.html#7">App\Commands\Command</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/HandleEventsCommand.php.html#16">App\Commands\HandleEventsCommand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/HandleEventsDaemonCommand.php.html#9">App\Commands\HandleEventsDaemonCommand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SaveEventCommand.php.html#12">App\Commands\SaveEventCommand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/TgMessageCommand.php.html#8">App\Commands\TgMessageCommand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConsoleKernel.php.html#9">App\ConsoleKernel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database/SQLite.php.html#8">App\Database\SQLite</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Environment.php.html#7">App\Environment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSender/EventSender.php.html#5">App\EventSender\EventSender</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/Str.php.html#5">App\Helpers\Str</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Model.php.html#8">App\Models\Model</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Telegram/TelegramApiImp.php.html#3">App\Telegram\TelegramApiImp</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Commands/SaveEventCommand.php.html#12">App\Commands\SaveEventCommand</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Commands/HandleEventsCommand.php.html#16">App\Commands\HandleEventsCommand</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Telegram/TelegramApiImp.php.html#3">App\Telegram\TelegramApiImp</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Application.php.html#5">App\Application</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Commands/Command.php.html#7">App\Commands\Command</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Commands/HandleEventsDaemonCommand.php.html#9">App\Commands\HandleEventsDaemonCommand</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Models/Model.php.html#8">App\Models\Model</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/TgMessageCommand.php.html#8">App\Commands\TgMessageCommand</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ConsoleKernel.php.html#9">App\ConsoleKernel</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Application.php.html#10"><abbr title="App\Application::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#16"><abbr title="App\Application::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#26"><abbr title="App\Application::isRunningInConsole">isRunningInConsole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#31"><abbr title="App\Application::path">path</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#36"><abbr title="App\Application::env">env</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/Command.php.html#15"><abbr title="App\Commands\Command::initPcntl">initPcntl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/Command.php.html#32"><abbr title="App\Commands\Command::getCurrentTime">getCurrentTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/Command.php.html#42"><abbr title="App\Commands\Command::getLastData">getLastData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/HandleEventsCommand.php.html#20"><abbr title="App\Commands\HandleEventsCommand::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/HandleEventsCommand.php.html#25"><abbr title="App\Commands\HandleEventsCommand::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/HandleEventsCommand.php.html#40"><abbr title="App\Commands\HandleEventsCommand::shouldEventBeRan">shouldEventBeRan</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/HandleEventsDaemonCommand.php.html#13"><abbr title="App\Commands\HandleEventsDaemonCommand::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/HandleEventsDaemonCommand.php.html#18"><abbr title="App\Commands\HandleEventsDaemonCommand::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/HandleEventsDaemonCommand.php.html#25"><abbr title="App\Commands\HandleEventsDaemonCommand::daemonRun">daemonRun</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SaveEventCommand.php.html#17"><abbr title="App\Commands\SaveEventCommand::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SaveEventCommand.php.html#24"><abbr title="App\Commands\SaveEventCommand::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SaveEventCommand.php.html#76"><abbr title="App\Commands\SaveEventCommand::getGetoptOptionValues">getGetoptOptionValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SaveEventCommand.php.html#102"><abbr title="App\Commands\SaveEventCommand::isNeedHelp">isNeedHelp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SaveEventCommand.php.html#120"><abbr title="App\Commands\SaveEventCommand::showHelp">showHelp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SaveEventCommand.php.html#142"><abbr title="App\Commands\SaveEventCommand::getCronValues">getCronValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SaveEventCommand.php.html#158"><abbr title="App\Commands\SaveEventCommand::saveEvent">saveEvent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/TgMessageCommand.php.html#13"><abbr title="App\Commands\TgMessageCommand::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/TgMessageCommand.php.html#18"><abbr title="App\Commands\TgMessageCommand::setTelegramApi">setTelegramApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/TgMessageCommand.php.html#23"><abbr title="App\Commands\TgMessageCommand::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConsoleKernel.php.html#20"><abbr title="App\ConsoleKernel::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConsoleKernel.php.html#25"><abbr title="App\ConsoleKernel::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database/SQLite.php.html#12"><abbr title="App\Database\SQLite::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Environment.php.html#11"><abbr title="App\Environment::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Environment.php.html#18"><abbr title="App\Environment::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSender/EventSender.php.html#8"><abbr title="App\EventSender\EventSender::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSender/EventSender.php.html#12"><abbr title="App\EventSender\EventSender::sendMessage">sendMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/Str.php.html#7"><abbr title="App\Helpers\Str::studly">studly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/Str.php.html#14"><abbr title="App\Helpers\Str::camel">camel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Model.php.html#13"><abbr title="App\Models\Model::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Model.php.html#18"><abbr title="App\Models\Model::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Model.php.html#23"><abbr title="App\Models\Model::insert">insert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Model.php.html#31"><abbr title="App\Models\Model::select">select</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Telegram/TelegramApiImp.php.html#8"><abbr title="App\Telegram\TelegramApiImp::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Telegram/TelegramApiImp.php.html#31"><abbr title="App\Telegram\TelegramApiImp::getMessage">getMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Telegram/TelegramApiImp.php.html#62"><abbr title="App\Telegram\TelegramApiImp::sendMessage">sendMessage</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Commands/SaveEventCommand.php.html#102"><abbr title="App\Commands\SaveEventCommand::isNeedHelp">isNeedHelp</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Telegram/TelegramApiImp.php.html#31"><abbr title="App\Telegram\TelegramApiImp::getMessage">getMessage</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Commands/HandleEventsCommand.php.html#40"><abbr title="App\Commands\HandleEventsCommand::shouldEventBeRan">shouldEventBeRan</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/Command.php.html#15"><abbr title="App\Commands\Command::initPcntl">initPcntl</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/HandleEventsCommand.php.html#25"><abbr title="App\Commands\HandleEventsCommand::run">run</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/HandleEventsDaemonCommand.php.html#25"><abbr title="App\Commands\HandleEventsDaemonCommand::daemonRun">daemonRun</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/SaveEventCommand.php.html#24"><abbr title="App\Commands\SaveEventCommand::run">run</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ConsoleKernel.php.html#25"><abbr title="App\ConsoleKernel::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Application.php.html#16"><abbr title="App\Application::run">run</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Application.php.html#26"><abbr title="App\Application::isRunningInConsole">isRunningInConsole</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/Command.php.html#42"><abbr title="App\Commands\Command::getLastData">getLastData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/SaveEventCommand.php.html#142"><abbr title="App\Commands\SaveEventCommand::getCronValues">getCronValues</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/TgMessageCommand.php.html#23"><abbr title="App\Commands\TgMessageCommand::run">run</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/Model.php.html#31"><abbr title="App\Models\Model::select">select</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.32</a> using <a href="https://secure.php.net/" target="_top">PHP 8.3.14</a> and <a href="https://phpunit.de/">PHPUnit 9.6.21</a> at Thu Nov 21 7:55:07 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/jquery.min.js?v=9.2.32" type="text/javascript"></script>
+  <script src="_js/d3.min.js?v=9.2.32" type="text/javascript"></script>
+  <script src="_js/nv.d3.min.js?v=9.2.32" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([13,0,0,0,0,0,0,0,0,0,0,4], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([40,0,0,0,0,0,0,0,0,0,0,4], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,3,"<a href=\"Actions\/EventSaver.php.html#4\">App\\Actions\\EventSaver<\/a>"],[0,7,"<a href=\"Application.php.html#5\">App\\Application<\/a>"],[0,7,"<a href=\"Commands\/Command.php.html#7\">App\\Commands\\Command<\/a>"],[0,9,"<a href=\"Commands\/HandleEventsCommand.php.html#16\">App\\Commands\\HandleEventsCommand<\/a>"],[0,5,"<a href=\"Commands\/HandleEventsDaemonCommand.php.html#9\">App\\Commands\\HandleEventsDaemonCommand<\/a>"],[0,15,"<a href=\"Commands\/SaveEventCommand.php.html#12\">App\\Commands\\SaveEventCommand<\/a>"],[0,4,"<a href=\"Commands\/TgMessageCommand.php.html#8\">App\\Commands\\TgMessageCommand<\/a>"],[0,4,"<a href=\"ConsoleKernel.php.html#9\">App\\ConsoleKernel<\/a>"],[100,0,"<a href=\"Database\/Db.php.html#7\">App\\Database\\Db<\/a>"],[0,1,"<a href=\"Database\/SQLite.php.html#8\">App\\Database\\SQLite<\/a>"],[0,2,"<a href=\"Environment.php.html#7\">App\\Environment<\/a>"],[0,2,"<a href=\"EventSender\/EventSender.php.html#5\">App\\EventSender\\EventSender<\/a>"],[100,0,"<a href=\"Exceptions\/CommandNotFound.php.html#7\">App\\Exceptions\\CommandNotFound<\/a>"],[0,2,"<a href=\"Helpers\/Str.php.html#5\">App\\Helpers\\Str<\/a>"],[100,0,"<a href=\"Models\/Event.php.html#7\">App\\Models\\Event<\/a>"],[0,5,"<a href=\"Models\/Model.php.html#8\">App\\Models\\Model<\/a>"],[0,8,"<a href=\"Telegram\/TelegramApiImp.php.html#3\">App\\Telegram\\TelegramApiImp<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Actions\/EventSaver.php.html#6\">App\\Actions\\EventSaver::__construct<\/a>"],[100,1,"<a href=\"Actions\/EventSaver.php.html#9\">App\\Actions\\EventSaver::handle<\/a>"],[100,1,"<a href=\"Actions\/EventSaver.php.html#13\">App\\Actions\\EventSaver::saveEvent<\/a>"],[0,1,"<a href=\"Application.php.html#10\">App\\Application::__construct<\/a>"],[0,2,"<a href=\"Application.php.html#16\">App\\Application::run<\/a>"],[0,2,"<a href=\"Application.php.html#26\">App\\Application::isRunningInConsole<\/a>"],[0,1,"<a href=\"Application.php.html#31\">App\\Application::path<\/a>"],[0,1,"<a href=\"Application.php.html#36\">App\\Application::env<\/a>"],[100,0,"<a href=\"Commands\/Command.php.html#13\">App\\Commands\\Command::run<\/a>"],[0,4,"<a href=\"Commands\/Command.php.html#15\">App\\Commands\\Command::initPcntl<\/a>"],[0,1,"<a href=\"Commands\/Command.php.html#32\">App\\Commands\\Command::getCurrentTime<\/a>"],[0,2,"<a href=\"Commands\/Command.php.html#42\">App\\Commands\\Command::getLastData<\/a>"],[0,1,"<a href=\"Commands\/HandleEventsCommand.php.html#20\">App\\Commands\\HandleEventsCommand::__construct<\/a>"],[0,3,"<a href=\"Commands\/HandleEventsCommand.php.html#25\">App\\Commands\\HandleEventsCommand::run<\/a>"],[0,5,"<a href=\"Commands\/HandleEventsCommand.php.html#40\">App\\Commands\\HandleEventsCommand::shouldEventBeRan<\/a>"],[0,1,"<a href=\"Commands\/HandleEventsDaemonCommand.php.html#13\">App\\Commands\\HandleEventsDaemonCommand::__construct<\/a>"],[0,1,"<a href=\"Commands\/HandleEventsDaemonCommand.php.html#18\">App\\Commands\\HandleEventsDaemonCommand::run<\/a>"],[0,3,"<a href=\"Commands\/HandleEventsDaemonCommand.php.html#25\">App\\Commands\\HandleEventsDaemonCommand::daemonRun<\/a>"],[0,1,"<a href=\"Commands\/SaveEventCommand.php.html#17\">App\\Commands\\SaveEventCommand::__construct<\/a>"],[0,3,"<a href=\"Commands\/SaveEventCommand.php.html#24\">App\\Commands\\SaveEventCommand::run<\/a>"],[0,1,"<a href=\"Commands\/SaveEventCommand.php.html#76\">App\\Commands\\SaveEventCommand::getGetoptOptionValues<\/a>"],[0,6,"<a href=\"Commands\/SaveEventCommand.php.html#102\">App\\Commands\\SaveEventCommand::isNeedHelp<\/a>"],[0,1,"<a href=\"Commands\/SaveEventCommand.php.html#120\">App\\Commands\\SaveEventCommand::showHelp<\/a>"],[0,2,"<a href=\"Commands\/SaveEventCommand.php.html#142\">App\\Commands\\SaveEventCommand::getCronValues<\/a>"],[0,1,"<a href=\"Commands\/SaveEventCommand.php.html#158\">App\\Commands\\SaveEventCommand::saveEvent<\/a>"],[0,1,"<a href=\"Commands\/TgMessageCommand.php.html#13\">App\\Commands\\TgMessageCommand::__construct<\/a>"],[0,1,"<a href=\"Commands\/TgMessageCommand.php.html#18\">App\\Commands\\TgMessageCommand::setTelegramApi<\/a>"],[0,2,"<a href=\"Commands\/TgMessageCommand.php.html#23\">App\\Commands\\TgMessageCommand::run<\/a>"],[0,1,"<a href=\"ConsoleKernel.php.html#20\">App\\ConsoleKernel::__construct<\/a>"],[0,3,"<a href=\"ConsoleKernel.php.html#25\">App\\ConsoleKernel::handle<\/a>"],[0,1,"<a href=\"Database\/SQLite.php.html#12\">App\\Database\\SQLite::__construct<\/a>"],[0,1,"<a href=\"Environment.php.html#11\">App\\Environment::__construct<\/a>"],[0,1,"<a href=\"Environment.php.html#18\">App\\Environment::get<\/a>"],[0,1,"<a href=\"EventSender\/EventSender.php.html#8\">App\\EventSender\\EventSender::__construct<\/a>"],[0,1,"<a href=\"EventSender\/EventSender.php.html#12\">App\\EventSender\\EventSender::sendMessage<\/a>"],[0,1,"<a href=\"Helpers\/Str.php.html#7\">App\\Helpers\\Str::studly<\/a>"],[0,1,"<a href=\"Helpers\/Str.php.html#14\">App\\Helpers\\Str::camel<\/a>"],[0,1,"<a href=\"Models\/Model.php.html#13\">App\\Models\\Model::__construct<\/a>"],[0,1,"<a href=\"Models\/Model.php.html#18\">App\\Models\\Model::execute<\/a>"],[0,1,"<a href=\"Models\/Model.php.html#23\">App\\Models\\Model::insert<\/a>"],[0,2,"<a href=\"Models\/Model.php.html#31\">App\\Models\\Model::select<\/a>"],[0,1,"<a href=\"Telegram\/TelegramApiImp.php.html#8\">App\\Telegram\\TelegramApiImp::__construct<\/a>"],[0,6,"<a href=\"Telegram\/TelegramApiImp.php.html#31\">App\\Telegram\\TelegramApiImp::getMessage<\/a>"],[0,1,"<a href=\"Telegram\/TelegramApiImp.php.html#62\">App\\Telegram\\TelegramApiImp::sendMessage<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
