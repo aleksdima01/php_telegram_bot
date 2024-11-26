@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '65acafa55414973180e4cacbee9055b534494d55',
+        'reference' => '0beb72cc4dd3753216ab241be8793dd7c90c6d64',
         'name' => 'rek771/reminder-tg-bot',
         'dev' => true,
     ),
@@ -145,6 +145,24 @@
             'reference' => '8b0223b5ed235fd377c75fdd1bfcad05c0f168b8',
             'dev_requirement' => true,
         ),
+        'paragonie/constant_time_encoding' => array(
+            'pretty_version' => 'v3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/constant_time_encoding',
+            'aliases' => array(),
+            'reference' => 'df1e7fde177501eee2037dd159cf04f5f301a512',
+            'dev_requirement' => false,
+        ),
+        'paragonie/random_compat' => array(
+            'pretty_version' => 'v9.99.100',
+            'version' => '9.99.100.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/random_compat',
+            'aliases' => array(),
+            'reference' => '996434e5492cb4c3edcb9168db6fbb1359ef965a',
+            'dev_requirement' => false,
+        ),
         'phar-io/manifest' => array(
             'pretty_version' => '2.0.4',
             'version' => '2.0.4.0',
@@ -163,6 +181,15 @@
             'reference' => '4f7fd7836c6f332bb2933569e566a0d6c4cbed74',
             'dev_requirement' => true,
         ),
+        'php-amqplib/php-amqplib' => array(
+            'pretty_version' => 'v3.7.2',
+            'version' => '3.7.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php-amqplib/php-amqplib',
+            'aliases' => array(),
+            'reference' => '738a73eb0019b6c99d9bc25d7a0c0dd8f56a5199',
+            'dev_requirement' => false,
+        ),
         'phpoption/phpoption' => array(
             'pretty_version' => '1.9.3',
             'version' => '1.9.3.0',
@@ -170,6 +197,15 @@
             'install_path' => __DIR__ . '/../phpoption/phpoption',
             'aliases' => array(),
             'reference' => 'e3fac8b24f56113f7cb96af14958c0dd16330f54',
+            'dev_requirement' => false,
+        ),
+        'phpseclib/phpseclib' => array(
+            'pretty_version' => '3.0.42',
+            'version' => '3.0.42.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpseclib/phpseclib',
+            'aliases' => array(),
+            'reference' => 'db92f1b1987b12b13f248fe76c3a52cadb67bb98',
             'dev_requirement' => false,
         ),
         'phpunit/php-code-coverage' => array(
@@ -274,7 +310,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '65acafa55414973180e4cacbee9055b534494d55',
+            'reference' => '0beb72cc4dd3753216ab241be8793dd7c90c6d64',
             'dev_requirement' => false,
         ),
         'sanmai/later' => array(
@@ -564,6 +600,12 @@
             'aliases' => array(),
             'reference' => '737eda637ed5e28c3413cb1ebe8bb52cbf1ca7a2',
             'dev_requirement' => true,
+        ),
+        'videlalvaro/php-amqplib' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => 'v3.7.2',
+            ),
         ),
         'vlucas/phpdotenv' => array(
             'pretty_version' => 'v5.6.1',
