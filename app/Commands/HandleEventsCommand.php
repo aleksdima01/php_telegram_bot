@@ -10,8 +10,8 @@ use App\EventSender\EventSender;
 
 use App\Models\Event;
 use App\Telegram\TelegramApiImp;
+use App\Queue\RabbitMQ;
 
-//use App\Models\EventDto;
 
 class HandleEventsCommand extends Command
 {
@@ -28,10 +28,14 @@ class HandleEventsCommand extends Command
 
         $events = $event->select();
 
-        $eventSender = new EventSender(new TelegramApiImp($this->app->env('TELEGRAM_TOKEN')));
+        //$eventSender = new EventSender(new TelegramApiImp($this->app->env('TELEGRAM_TOKEN')));
+
+        $queue = new RabbitMQ('eventSender');
+        $eventSender = new EventSender(new TelegramApiImp($this->app->env('TELEGRAM_TOKEN')), $queue);
 
         foreach ($events as $event) {
-            if ($this->shouldEventBeRan($event)) {
+        //    if ($this->shouldEventBeRan($event)) {
+            if (true) {
                 $eventSender->sendMessage($event['receiver_id'], $event['text']);
             }
         }
